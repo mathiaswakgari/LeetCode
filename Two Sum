@@ -1,8 +1,0 @@
-const sumTwo = function(nums, target){
-    let answer = []
-    for(let i=0; i < nums.length; i++){
-        if(nums[i] + nums[i + 1])
-            answer.push(i, i+1)
-    }
-    return answer
-}
